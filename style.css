@@ -18,8 +18,6 @@
     justify-content: flex-start;
     align-items: baseline;
     padding: 50px;
-
-
 }
 
 .navbar-brand:hover {
@@ -74,24 +72,39 @@ button:hover {
 
 /*--Hero----------------------------------------*/
 .container2 {
-    padding-left: 50px;
-    padding-top: 100px;
+    padding: 50px;
+
 }
 
 h1 {
     display: flex;
     justify-content: flex-start;
     font-size: 80px;
-    
+}
+
+.container2 p {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 24px;
 }
 
 .btn-danger {
     background-color: red;
     border-color:  red;
+    margin-left: 0px;
+}
+
+.btn-danger:hover {
+    border-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
 }
 
 .img-fluid {
-    height: 50%;
+    height: auto !important;
+    max-width: 500px !important;
+    object-position: right !important;
+
+
 }
 
 /*--Cards---------------------------------------*/
@@ -112,10 +125,30 @@ h2 {
     font-size: 50px;
 }
 
-.btn:hover {
+.card-body {
+    display: block;
+    align-content: center;
+    
+}
+
+.btn-danger:hover {
+    color: red;
+    text-decoration: underline;
+    border-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;;
+}
+
+.buttonCards:hover {
     background-color: black;
     color: red;
     text-decoration: underline;
+    border-color: black !important;
+}
+
+.midButton:hover {
+    background-color: rgba(var(--bs-secondary-rgb),var(--bs-bg-opacity))!important;
+    color: red;
+    text-decoration: underline;
+    border-color: rgba(var(--bs-secondary-rgb),var(--bs-bg-opacity))!important;
 }
 
 .buttonCards {
@@ -140,7 +173,7 @@ footer {
     right: 0;
     background-color: black;
     height: auto;
-    width: 100vw;
+    width: 99.35vw;
     font-family: "Open Sans";
     padding-top: 20px;
     color: white;
@@ -237,4 +270,42 @@ footer {
 
 .container a i:hover {
     color: black;
+}
+
+
+
+
+/*--About Me ---------------------------------------*/
+.aboutMain img {
+    display: flex;
+    align-content: flex-end;
+    width: 500 !important;
+    height: auto !important;
+    margin-left: 925px;
+}
+
+.aboutMain button {
+    margin-top: 50px;
+}
+
+.aboutFooter {
+    background-color: black !important;
+}
+
+
+
+
+/*--Contact Me--------------------------------------*/
+.buttonOne {
+    background-color: black;
+    color: red;
+    text-decoration: underline;
+}
+
+.contactMain {
+    padding: 68px !important;
+}
+
+.contactFooter {
+    background-color: black !important;
 }
