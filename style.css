@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&family=Montserrat:wght@500&family=Open+Sans:ital,wght@1,600&family=Source+Serif+Pro:ital,wght@1,600&display=swap');
 
-/*--Navigation Bar------------------------------*/
+/*--Navigation Bar Section------------------------*/
 .container1 {
     background-color: black;
     width: 100%;
@@ -12,16 +12,47 @@
 }
 
 .navbar-brand {
-    color:  red;
+    color:  rgb(214, 189, 47);
     font-size: 40px;
+    font-style: italic;
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
-    padding: 50px;
+    padding-left: 50px;
+}
+
+.navbar-brandLogo {
+    color:  gold;
+    font-size: 40px;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Alice', serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    font-family: 'Yellowtail', cursive;
 }
 
 .navbar-brand:hover {
     text-decoration: underline;
+    color: red;
+}
+
+.navbar-brandLogo:hover {
+    text-decoration: underline;
+    color: red;
+
 }
 
 .navlink {
@@ -55,7 +86,6 @@ button {
     margin-left: 25px;
     padding: 8px 16px;
     background-color:  red;
-    border-color: red;
     color: white;
     font-size: 20px;
     border: none;
@@ -70,7 +100,11 @@ button:hover {
     text-decoration: underline;
 }
 
-/*--Hero----------------------------------------*/
+
+
+
+
+/*--Hero Section----------------------------------*/
 .container2 {
     padding: 50px;
 
@@ -89,6 +123,7 @@ h1 {
 }
 
 .btn-danger {
+    color: white;
     background-color: red;
     border-color:  red;
     margin-left: 0px;
@@ -102,12 +137,13 @@ h1 {
 .img-fluid {
     height: auto !important;
     max-width: 500px !important;
-    object-position: right !important;
-
-
 }
 
-/*--Cards---------------------------------------*/
+
+
+
+
+/*--Cards Section---------------------------------*/
 .cards {
     background-color: black;
     padding: 100px;
@@ -121,6 +157,10 @@ h1 {
     padding-bottom: 50px;
 }
 
+.col-md {
+    margin-bottom: 25px;
+}
+
 h2 {
     font-size: 50px;
 }
@@ -128,7 +168,6 @@ h2 {
 .card-body {
     display: block;
     align-content: center;
-    
 }
 
 .btn-danger:hover {
@@ -139,7 +178,7 @@ h2 {
 
 .buttonCards:hover {
     background-color: black;
-    color: red;
+    color: rgold;
     text-decoration: underline;
     border-color: black !important;
 }
@@ -165,7 +204,15 @@ h2 {
     background-color: red;
 }
 
-/*--Footer--------------------------------------*/
+.buttonCards button:hover {
+    border-color: black !important;
+}
+
+
+
+
+
+/*--Footer Section--------------------------------*/
 footer {
     position: absolute;
     bottom: 0;
@@ -210,7 +257,7 @@ footer {
 
 .fa-facebook:hover {
     cursor: pointer;
-    color: red;
+    color: gold;
     text-decoration: underline;
 }
 
@@ -223,7 +270,7 @@ footer {
 
 .fa-linkedin-in:hover {
     cursor: pointer;
-    color: red;
+    color: gold;
     text-decoration: underline;
 }
 
@@ -236,7 +283,7 @@ footer {
 
 .fa-twitter:hover {
     cursor: pointer;
-    color: red;
+    color: gold;
     text-decoration: underline;
 }
 
@@ -248,7 +295,7 @@ footer {
 
 .fa-instagram:hover {
     cursor: pointer;
-    color: red;
+    color: gold;
     text-decoration: underline;
 }
 
@@ -275,7 +322,18 @@ footer {
 
 
 
-/*--About Me ---------------------------------------*/
+
+/*--About Me Section------------------------------*/
+.aboutNav .navlink1 {
+    color: gray !important;
+    font-size: 28px !important;
+    pointer-events: none;
+}
+
+.aboutNav .nav-link {
+  margin-top: 6px !important;
+}
+
 .aboutMain img {
     display: flex;
     align-content: flex-end;
@@ -295,11 +353,13 @@ footer {
 
 
 
-/*--Contact Me--------------------------------------*/
+
+/*--Contact Me Section----------------------------*/
 .buttonOne {
     background-color: black;
-    color: red;
-    text-decoration: underline;
+    color: gray;
+    font-size: 28px;
+    pointer-events: none;
 }
 
 .contactMain {
@@ -308,4 +368,273 @@ footer {
 
 .contactFooter {
     background-color: black !important;
+}
+
+
+
+
+
+/*--Non Profit Orgenization Page------------------*/
+
+/*--Hero Section----------------------------------*/
+.heroPic {
+    display: flex;
+    justify-content: center;
+    width: 834px;
+    height: 366px;
+    padding: 0px;
+}
+
+
+
+
+
+/*--My Role & Team Section------------------------*/
+.content {
+    background-color: tan;
+    padding: 50px;
+    padding-top: 100px;
+    color: white;
+    font-weight: 600;
+}
+
+.fe-block h2 {
+    color: rgb(255, 140, 40);
+}
+
+.fe-block .sqsrte-large {
+    font-size: 18px;
+}
+
+
+
+
+
+/*--Current & New Design--------------------------*/
+.design {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: rgb(255, 140, 40);
+}
+
+.designTitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: tan;
+}
+
+.designImg {
+    display: flex;
+    background-color: rgb(255, 140, 40);
+}
+
+.designImgOne {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    left: 450px;
+    width: 800px;
+    height: auto;
+}
+
+.designImgTwo {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    left: 500px;
+    width: 800px;
+    height: auto;
+}
+
+
+
+
+
+/*--New Design Section----------------------------*/
+.newDesign {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    background-color: tan;
+    padding-top: 100px;
+}
+
+.newDesignTitle h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 140, 40);
+}
+
+.newDesignDesktop {
+    padding-right: 50px;
+    padding-bottom: 150px;
+}
+
+.newDesignTablet {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 150px;
+}
+
+.newDesignMobile {
+    padding-left: 50px;
+    padding-bottom: 150px;
+}
+
+
+
+
+/*--Empathize Section-----------------------------*/
+.empathizePhase {
+    background-color: rgb(255, 140, 40);
+    padding: 100px;
+    border: none;
+}
+
+.empathizeTitle{
+    display: flex;
+    justify-content: center;
+    color: tan;
+    padding: 50px;
+}
+
+.empathizeBody {
+    color: white;
+    font-size: 24px;
+}
+
+
+
+
+/*--Define Phase----------------------------------*/
+.definePhase {
+    background-color: tan;
+    padding: 100px;
+    border: none;
+}
+
+.defineTitle {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 140, 40);
+    padding: 50px;
+}
+
+.defineBody {
+    color: white;
+    font-size: 24px;
+}
+
+.slideDeck {
+    background-color: tan;
+    padding: 0;
+    margin: 0;
+}
+
+.defineTitleTwo {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 140, 40);
+}
+
+.sliderFrame {
+    overflow: hidden;
+    height: 800px;
+    width: 1200px;
+    margin-left: 360px;
+    margin-top: 20px;
+}
+
+@-webkit-keyframes slide_animation{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:1200px;}
+    30% {left:1200px;}
+    40% {left:2400px;}
+    50% {left:2400px;}
+    60% {left:1200px;}
+    70% {left:1200px;}
+    80% {left:0px;}
+    90% {left:0px;}
+    100% {left:0px;}
+}
+
+.slideImages {
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+.imgContainer {
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+}
+
+
+
+
+
+/*--Ideation Section------------------------------*/
+.ideationPhase {
+    background-color: rgb(255, 140, 40);
+    border: none;
+}
+
+.ideationTitle {
+    display: flex;
+    justify-content: center;
+    color: tan;
+    padding-top: 100px;
+}
+
+.ideationBody {
+    color: white;
+    font-size: 24px;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+
+
+
+/*--Conclusion Section----------------------------*/
+#yui_3_17_2_1_1659634429810_3483 {
+    background-color: tan;
+}
+
+#block-yui_3_17_2_1_1656517681179_8170235 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: rgb(255, 140, 40);
+}
+
+#block-d963bc9c180a01262179 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+}
+
+
+
+
+
+/*--Footer----------------------------------------*/
+.nonProfFooter {
+    background-color: black;
 }
