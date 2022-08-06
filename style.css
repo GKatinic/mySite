@@ -2,13 +2,13 @@
 
 /*--Navigation Bar Section------------------------*/
 .container1 {
-    background-color: black;
     width: 100%;
     height: auto;
     display: flex;
     align-items: center;
     padding-right: 100px;
     padding-left: 50px;
+    margin: none;
 }
 
 .navbar-brand {
@@ -46,12 +46,12 @@
 
 .navbar-brand:hover {
     text-decoration: underline;
-    color: red;
+    color: rgb(205, 0, 0);
 }
 
 .navbar-brandLogo:hover {
     text-decoration: underline;
-    color: red;
+    color: rgb(205, 0, 0);
 
 }
 
@@ -72,7 +72,7 @@
 }
 
  .collapse a:hover {
-    color:  red !important;
+    color:  rgb(205, 0, 0) !important;
     text-decoration: underline !important;
 }
 
@@ -84,19 +84,18 @@
 
 button {
     margin-left: 25px;
-    padding: 8px 16px;
-    background-color:  red;
+    background-color:  rgb(205, 0, 0);
     color: white;
     font-size: 20px;
     border: none;
-    border-radius: 0.5rem;
+    border-radius: 0.4rem;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
 button:hover {
     background-color: black;
-    color:  red;
+    color:  rgb(205, 0, 0);
     text-decoration: underline;
 }
 
@@ -106,27 +105,31 @@ button:hover {
 
 /*--Hero Section----------------------------------*/
 .container2 {
-    padding: 50px;
-
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: none;
 }
 
 h1 {
     display: flex;
-    justify-content: flex-start;
     font-size: 80px;
+    padding-top: 100px;
 }
 
 .container2 p {
     display: flex;
-    justify-content: flex-start;
     font-size: 24px;
 }
 
 .btn-danger {
+    display: flex;
+    justify-content: flex-start;
     color: white;
-    background-color: red;
-    border-color:  red;
-    margin-left: 0px;
+    background-color: rgb(205, 0, 0);
+    border-color:  rgb(205, 0, 0);
+    margin-top: 100px;
+    margin-left: 0;
 }
 
 .btn-danger:hover {
@@ -158,11 +161,15 @@ h1 {
 }
 
 .col-md {
-    margin-bottom: 25px;
+    display: flex;
+    align-content: center !important;
+    justify-content: center !important;
+ 
 }
 
 h2 {
     font-size: 50px;
+    align-items: center;
 }
 
 .card-body {
@@ -170,22 +177,27 @@ h2 {
     align-content: center;
 }
 
+a .midButton {
+   
+
+}
+
 .btn-danger:hover {
-    color: red;
+    color: rgb(205, 0, 0);
     text-decoration: underline;
     border-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;;
 }
 
 .buttonCards:hover {
     background-color: black;
-    color: rgold;
+    color: white;
     text-decoration: underline;
     border-color: black !important;
 }
 
 .midButton:hover {
     background-color: rgba(var(--bs-secondary-rgb),var(--bs-bg-opacity))!important;
-    color: red;
+    color: rgb(205, 0, 0);
     text-decoration: underline;
     border-color: rgba(var(--bs-secondary-rgb),var(--bs-bg-opacity))!important;
 }
@@ -195,13 +207,13 @@ h2 {
     padding-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .buttonCards button {
     color: white;
-    background-color: red;
+    background-color: rgb(205, 0, 0);
 }
 
 .buttonCards button:hover {
@@ -312,7 +324,7 @@ footer {
 }
 
 .container a i {
-    color: red;
+    color: rgb(205, 0, 0);
 }
 
 .container a i:hover {
@@ -323,31 +335,47 @@ footer {
 
 
 
-/*--About Me Section------------------------------*/
-.aboutNav .navlink1 {
-    color: gray !important;
-    font-size: 28px !important;
+/*--About Me Page Section--------------------------*/
+
+/*--About Me Navigation----------------------------*/
+
+.aboutNavBar .navlink {
     pointer-events: none;
+    font-size: 28px;
+    padding-right: 25px !important;
 }
 
-.aboutNav .nav-link {
-  margin-top: 6px !important;
+.navlink:hover {
+    text-decoration: none !important;
 }
 
-.aboutMain img {
+#navBarDropDown {
     display: flex;
-    align-content: flex-end;
-    width: 500 !important;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+/*--About Me Main Body-----------------------------*/
+.aboutMainBody {
+    background-color: black;
+    margin: none;
+}
+
+.aboutMain .aboutImg {
+    display: flex;
+    justify-items: center !important;
+    align-items: center !important;
+    width: 700 !important;
     height: auto !important;
-    margin-left: 925px;
 }
 
 .aboutMain button {
     margin-top: 50px;
-}
-
-.aboutFooter {
-    background-color: black !important;
 }
 
 
@@ -628,13 +656,4 @@ footer {
     justify-content: center;
     color: white;
     font-size: 24px;
-}
-
-
-
-
-
-/*--Footer----------------------------------------*/
-.nonProfFooter {
-    background-color: black;
 }
