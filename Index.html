@@ -9,9 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">  <!--Bootstrap-->
     <script src="https://kit.fontawesome.com/e65fd48004.js" crossorigin="anonymous"></script>  <!--Fontawsome-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Edu+VIC+WA+NT+Beginner:wght@600&family=Montserrat:wght@500&family=Open+Sans:ital,wght@1,600&family=Source+Serif+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Black+Ops+One&family=Cinzel+Decorative:wght@400;700;900&family=Comforter+Brush&family=Edu+VIC+WA+NT+Beginner:wght@600&family=Fredericka+the+Great&family=Libre+Barcode+39+Text&family=Montserrat:wght@500&family=Open+Sans:ital,wght@1,600&family=Orbitron:wght@400;500;600;700;800;900&family=Source+Serif+Pro:ital,wght@1,600&family=Yellowtail&display=swap" rel="stylesheet">     
     <link rel="stylesheet" href="style.css">  <!--My CSS Style Sheet-->
     <title>GK Portfolio</title>
 </head>
@@ -19,44 +17,43 @@
 <body>
 
     <!--Navigation Bar-->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <div class="container1">
-            <a href="home.html" class="navbar-brand">Design By: GK</a>
+    <nav class="container1 navbar navbar-expand-md navbar-dark bg-dark">
+        <a href="index.html" class="navbar-brand">Design By:</a>
+        <a href="index.html" class="navbar-brandLogo">GK</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item1">
-                        <a href="aboutMe.html" class="navlink p-2" style="color: white">About Me</a>
-                    </li>
-                      <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white">Case Studies</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a href="nonProfit.html" class="dropdown-item">Adobt-A-Native-Elder</a></li>
-                        <li><a href="govWeb.html" class="dropdown-item">Homeland Security</a></li>
-                        <li><a href="socMedia.html" class="dropdown-item">Socialize</a></li>
-                    </ul>
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item1">
+                    <a href="about.html" class="navlink p-2" style="color: white">About Me</a>
+                </li>
+                    <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white">Case Studies</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a href="nonprof.html" class="dropdown-item">Adobt-A-Native-Elder</a></li>
+                    <li><a href="gov.html" class="dropdown-item">Homeland Security</a></li>
+                    <li><a href="socmed.html" class="dropdown-item">Socialize</a></li>
                 </ul>
-                <button class="cta p-2">Contact Me</button>
-            </div>
+            </ul>
+            <button class="cta p-2" href="contact.html">Contact Me</button>
         </div>
     </nav>
 
     <!--Hero-->
-    <section class="bg-dark text-light p-5 text-center text-sm-start">
-        <div class="container2">
-            <div class="d-sm-flex">
-                <div>
-                    <h1>Hey Welcome!</h1>
-                    <p class="lead my-4"> dfghtdfghfdghdfgdfgdf gLorem ipsum, dolor sit amet consectetur adipisicing elit. Unde minima totam commodi ex quidem eveniet sit minus magnam vel animi, at nostrum ab quos mollitia delectus consequatur, corrupti, deleniti nihil..</p>
-                    <button class="btn btn-danger btn-lg"> Reach Out</button>
-                </div>
-               
-                <img class="img-fluid w-50 p-2" src="images/wedding_edited.jpg" alt="Picture of Myself"/>
+    <section class="container2 text-light p-5 text-center text-sm-start">
+        <div class="d-sm-flex">
+            <div>
+                <h1>Hey Welcome!</h1>
+                <br><br>
+                <p class="lead my-4">My name is Goran Katinic and I'm a UX/UI Designer out of Salt Lake City, Utah.
+                    <br>
+                    Feel free to look around and I hope I can be of service!
+                </p>
+                <button class="btn btn-danger btn-lg" href="contact.html"> Reach Out</button>
             </div>
+            <img class="img-fluid w-50 p-2" src="images/Me2.jpg" alt="Picture of Myself"/>
         </div>
     </section>
 
@@ -77,7 +74,7 @@
                                 Adopt-A-Native-Elder
                             </h3>
                             <p class="card-text"> A non-profit orgenization</p>
-                            <a href="nonProfit.html" class="btn btn-danger"> View</a>
+                            <a href="nonprof.html" class="btn btn-danger"> View</a>
                         </div>
                     </div>
                 </div>
@@ -92,7 +89,7 @@
                                 DHS
                             </h3>
                             <p class="card-text"> The Department of Homeland Security</p>
-                            <a href="govWeb.html" class="btn btn-danger"> View</a>
+                            <a href="gov.html" class="midButton btn btn-danger"> View</a>
                         </div>
                     </div>
                 </div>
@@ -107,14 +104,14 @@
                                 Socialize
                             </h3>
                             <p class="card-text"> A all in one social media platform</p>
-                            <a href="socMedia.html" class="btn btn-danger"> View</a>
+                            <a href="socmed.html" class="btn btn-danger"> View</a>
                         </div>
                     </div>
                 </div>
 
             </div>
             <div class="buttonCards">
-                <button type="button" class="btn btn-danger btn-lg">Hire Now</button>
+                <button type="button" class="btn btn-danger btn-lg" href="contact.html">Hire Now</button>
             </div>
         </div>
     </section>
@@ -139,7 +136,7 @@
         <br>
         <div class="container">
             <a href="#" class="position-relative bottom--50 end--30 p-5">
-                <i class="bi bi-arrow-up-circle h1"></i>
+                <i class="bi bi-arrow-up-circle h1"></style></i>
             </a>
             <h5 class="leadFoot">Copyright &copy; 2022 Design By: GK</h5>
         </div>

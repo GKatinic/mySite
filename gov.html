@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <!--Defines what charactor set is used-->
+    <meta name="keywords" content="Designer, UX, Designer, UI Designer, UX/UI Designer, Web Designer, App Designer, Addplication Designer, Mobile App Designer, UX/UI Portfolio, Goran Katinic">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Responsive Web-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">  <!--Bootstrap-->
+    <script src="https://kit.fontawesome.com/e65fd48004.js" crossorigin="anonymous"></script>  <!--Fontawsome-->
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Black+Ops+One&family=Cinzel+Decorative:wght@400;700;900&family=Comforter+Brush&family=Edu+VIC+WA+NT+Beginner:wght@600&family=Fredericka+the+Great&family=Libre+Barcode+39+Text&family=Montserrat:wght@500&family=Open+Sans:ital,wght@1,600&family=Orbitron:wght@400;500;600;700;800;900&family=Source+Serif+Pro:ital,wght@1,600&family=Yellowtail&display=swap" rel="stylesheet">     
+    <link rel="stylesheet" href="style.css">  <!--My CSS Style Sheet-->
+    <title>GK Portfolio</title>
+</head>
+
+<body>
+
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container1">
+            <a href="index.html" class="navbar-brand">Design By:</a>
+            <a href="index.html" class="navbar-brandLogo">GK</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item1">
+                        <a href="about.html" class="navlink p-2" style="color: white">About Me</a>
+                    </li>
+                      <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white">Case Studies</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a href="nonprof.html" class="dropdown-item">Adobt-A-Native-Elder</a></li>
+                        <li><a href="gov.html" class="dropdown-item">Homeland Security</a></li>
+                        <li><a href="socmed.html" class="dropdown-item">Socialize</a></li>
+                    </ul>
+                </ul>
+                <button class="cta p-2" href="contact.html">Contact Me</button>
+            </div>
+        </div>
+    </nav>
+
+    <!--Hero-->
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+        <div class="container2">
+            <div class="d-sm-flex">
+                <div>
+                    <h1>Hey Welcome!</h1>
+                    <br><br>
+                    <p class="lead my-4">My name is Goran Katinic and I'm a UX/UI Designer out of Salt Lake City, Utah.
+                        <br>
+                        Feel free to look around and I hope I can be of service!
+                    </p>
+                    <button class="btn btn-danger btn-lg" href="contact.html"> Reach Out</button>
+                </div>
+                <img class="img-fluid w-50 p-2" src="images/wedding_edited.jpg" alt="Picture of Myself"/>
+                
+            </div>
+        </div>
+    </section>
+
+    <!--CaseStudy Cards-->
+    <section class="cards">
+        <div class="title">
+            <h2>Case Studies</h2>
+        </div>
+        <div class="container p-5">
+            <div class="row text-center">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-file-image-fill"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Adopt-A-Native-Elder
+                            </h3>
+                            <p class="card-text"> A non-profit orgenization</p>
+                            <a href="nonprof.html" class="btn btn-danger"> View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-file-image-fill"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                DHS
+                            </h3>
+                            <p class="card-text"> The Department of Homeland Security</p>
+                            <a href="gov.html" class="midButton btn btn-danger"> View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-file-image-fill"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Socialize
+                            </h3>
+                            <p class="card-text"> A all in one social media platform</p>
+                            <a href="socmed.html" class="btn btn-danger"> View</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="buttonCards">
+                <button type="button" class="btn btn-danger btn-lg" href="contact.html">Hire Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="footerContent">
+            <h4>Thank you for visiting let's stay in touch!</h4>
+        </div>
+
+        <div class="socialMedia">
+            <a href="https://www.facebook.com/profile.php?id=100070421294554">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/goran-katinic-1638a11b2">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="http://instagram.com/design_by.gk">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+        <br>
+        <div class="container">
+            <a href="#" class="position-relative bottom--50 end--30 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+            <h5 class="leadFoot">Copyright &copy; 2022 Design By: GK</h5>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</body>
+
+</html>
