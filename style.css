@@ -55,10 +55,6 @@
 
 }
 
-.navlink {
-    list-style: none;
-}
-
 .nav-item1 {
     display: flex;
     align-items: center;
@@ -82,21 +78,8 @@
     font-size: 18px;
 }
 
-button {
-    margin-left: 25px;
-    background-color:  rgb(205, 0, 0);
-    color: white;
-    font-size: 20px;
-    border: none;
-    border-radius: 0.4rem;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-button:hover {
-    background-color: black;
-    color:  rgb(205, 0, 0);
-    text-decoration: underline;
+#navmenu .contact-btn {
+    margin-left: 20px;
 }
 
 
@@ -122,14 +105,16 @@ h1 {
     font-size: 24px;
 }
 
-.btn-danger {
+.img-fluid .contact2-btn {
     display: flex;
     justify-content: flex-start;
     color: white;
     background-color: rgb(205, 0, 0);
     border-color:  rgb(205, 0, 0);
-    margin-top: 100px;
-    margin-left: 0;
+}
+
+.contact2-btn {
+    margin-top: 80px;
 }
 
 .btn-danger:hover {
@@ -160,13 +145,6 @@ h1 {
     padding-bottom: 50px;
 }
 
-.col-md {
-    display: flex;
-    align-content: center !important;
-    justify-content: center !important;
- 
-}
-
 h2 {
     font-size: 50px;
     align-items: center;
@@ -177,22 +155,10 @@ h2 {
     align-content: center;
 }
 
-a .midButton {
-   
-
-}
-
 .btn-danger:hover {
     color: rgb(205, 0, 0);
     text-decoration: underline;
     border-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;;
-}
-
-.buttonCards:hover {
-    background-color: black;
-    color: white;
-    text-decoration: underline;
-    border-color: black !important;
 }
 
 .midButton:hover {
@@ -203,22 +169,12 @@ a .midButton {
 }
 
 .buttonCards {
-    padding-top: 100px;
-    padding-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     justify-content: center;
+    margin-top: 75px;
 }
 
-.buttonCards button {
-    color: white;
-    background-color: rgb(205, 0, 0);
-}
 
-.buttonCards button:hover {
-    border-color: black !important;
-}
 
 
 
@@ -341,7 +297,7 @@ footer {
 
 .aboutNavBar .navlink {
     pointer-events: none;
-    font-size: 28px;
+    font-size: 30px;
     padding-right: 25px !important;
 }
 
@@ -383,19 +339,21 @@ footer {
 
 
 /*--Contact Me Section----------------------------*/
-.buttonOne {
-    background-color: black;
-    color: gray;
-    font-size: 28px;
-    pointer-events: none;
-}
-
-.contactMain {
-    padding: 68px !important;
+.container2 {
+    margin: 0;
+    padding: 0;
 }
 
 .contactFooter {
     background-color: black !important;
+}
+
+.contact3-btn {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(205, 0, 0);
+    font-size: 30px !important;
+    pointer-events: none;
+    border: none;
 }
 
 
