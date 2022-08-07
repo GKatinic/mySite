@@ -82,10 +82,6 @@
     margin-left: 20px;
 }
 
-
-
-
-
 /*--Hero Section----------------------------------*/
 .container2 {
     display: flex;
@@ -126,10 +122,6 @@ h1 {
     height: auto !important;
     max-width: 500px !important;
 }
-
-
-
-
 
 /*--Cards Section---------------------------------*/
 .cards {
@@ -173,12 +165,6 @@ h2 {
     justify-content: center;
     margin-top: 75px;
 }
-
-
-
-
-
-
 
 /*--Footer Section--------------------------------*/
 footer {
@@ -294,7 +280,6 @@ footer {
 /*--About Me Page Section--------------------------*/
 
 /*--About Me Navigation----------------------------*/
-
 .aboutNavBar .navlink {
     pointer-events: none;
     font-size: 30px;
@@ -312,26 +297,20 @@ footer {
 
 }
 
-
-
-
-
 /*--About Me Main Body-----------------------------*/
 .aboutMainBody {
+    display: flex;
     background-color: black;
     margin: none;
 }
 
-.aboutMain .aboutImg {
-    display: flex;
-    justify-items: center !important;
-    align-items: center !important;
-    width: 700 !important;
-    height: auto !important;
+.aboutMain .contact-btn {
+    margin-top: 50px;
 }
 
-.aboutMain button {
-    margin-top: 50px;
+.imgfluid {
+    max-width: 800px !important;
+    height: auto;
 }
 
 
@@ -339,13 +318,11 @@ footer {
 
 
 /*--Contact Me Section----------------------------*/
+
+/*--Header Section--------------------------------*/
 .container2 {
     margin: 0;
     padding: 0;
-}
-
-.contactFooter {
-    background-color: black !important;
 }
 
 .contact3-btn {
@@ -354,6 +331,23 @@ footer {
     font-size: 30px !important;
     pointer-events: none;
     border: none;
+    margin-right: 50px;
+}
+
+/*Main Body----------------------------------------*/
+.contactMain {
+    display: flex;
+    justify-content: center;
+}
+
+.contactMain p {
+    display: flex;
+    justify-content: center;
+}
+
+/*--Footer Section---------------------------------*/
+.contactFooter {
+    background-color: black !important;
 }
 
 
