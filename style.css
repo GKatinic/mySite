@@ -174,7 +174,7 @@ footer {
     right: 0;
     background-color: black;
     height: auto;
-    width: 99.35vw;
+    max-width: 99.35vw;
     font-family: "Open Sans";
     padding-top: 20px;
     color: white;
@@ -359,9 +359,9 @@ footer {
 /*--Hero Section----------------------------------*/
 .heroPic {
     display: flex;
-    justify-content: center;
-    width: 834px;
-    height: 366px;
+    justify-items: center;
+    max-width: 1200px;
+    height: auto;
     padding: 0px;
 }
 
